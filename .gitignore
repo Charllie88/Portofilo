@@ -1,0 +1,17 @@
+# Node / JS
+node_modules/
+.DS_Store
+dist/
+
+# Editor
+.vscode/
+*.log
+
+# Python
+__pycache__/
+
+# OS
+Thumbs.db
+
+# Build artifacts
+coverage/
