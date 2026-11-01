@@ -1,190 +1,170 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Portfolio — Kliment Kapricevski</title>
-  <link rel="stylesheet" href="css/styles.css">
-  <script defer src="js/script.js"></script>
-</head>
-<body>
-  <header class="site-header">
-    <div class="container">
-      <h1 class="logo">Kliment Kapricevski</h1>
-      <nav class="nav">
-        <a href="#projects">Projects</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </div>
-  </header>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#111318">
+    <meta name="description" content="Kliment Kapricevski is a junior front-end developer building responsive web interfaces with JavaScript and React.">
+    <meta property="og:title" content="Kliment Kapricevski | Junior Front-End Developer">
+    <meta property="og:description" content="Selected front-end projects, technical interests, and contact information.">
+    <meta property="og:type" content="website">
+    <title>Kliment Kapricevski | Junior Front-End Developer</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script defer src="js/script.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
 
-  <main>
-    <section class="hero" id="hero">
-      <div class="container">
-        <h2>Hi, I'm Kliment Kapricevski</h2>
-        <p>Passionate front-end developer skilled in HTML, CSS, JavaScript, React, and Next.js.
-Leverages AI-assisted coding tools such as ChatGPT, GitHub Copilot, and Cursor to accelerate development, improve code quality, and rapidly deliver visually appealing web applications.
-Focused on building clean, responsive, and interactive interfaces with attention to UX/UI details.</p>
-        <p><a class="btn" href="#projects">View my work</a></p>
+    <header class="site-header">
+      <div class="container header-content">
+        <a class="logo" href="#home" aria-label="Kliment Kapricevski, home">KK<span>.</span></a>
+        <nav class="nav" aria-label="Main navigation">
+          <a href="#projects">Projects</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </nav>
       </div>
-    </section>
+    </header>
 
-    <section class="projects container" id="projects">
-      <h3>Projects from GitHub</h3>
-      <p class="muted">Automatically populated from <a href="https://github.com/Charllie88" target="_blank">github.com/Charllie88</a></p>
-      <div class="grid">
-        <article class="card">
-          <div class="card-body">
-            <h4>nextjs-e-commerce-store</h4>
-            <p>Next.js e-commerce example.</p>
-            <div class="card-links"><a href="https://github.com/Charllie88/nextjs-e-commerce-store" target="_blank">Code</a></div>
+    <main id="main-content">
+      <section class="hero section-shell" id="home" aria-labelledby="hero-title">
+        <div class="container hero-content">
+          <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> Junior Front-End Developer</p>
+          <h1 id="hero-title">Hi, I’m Kliment.<br><span>I build for the web.</span></h1>
+          <p class="hero-copy">
+            I’m developing my front-end skills through practical projects with HTML, CSS,
+            JavaScript, and React. I care about responsive layouts, accessible interactions,
+            and code that is clear to work with.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">Explore my projects <span aria-hidden="true">↓</span></a>
+            <a class="button button-secondary" href="mailto:kapricevski1988@gmail.com">Get in touch</a>
           </div>
-        </article>
+          <p class="hero-note">AI-assisted workflow · Human-reviewed code</p>
+        </div>
+      </section>
 
-        <article class="card">
-          <div class="card-body">
-            <h4>static-wiki-docs</h4>
-            <p>Static wiki/documentation project.</p>
-            <div class="card-links"><a href="https://github.com/Charllie88/static-wiki-docs" target="_blank">Code</a></div>
+      <section class="projects section-shell" id="projects" aria-labelledby="projects-title">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Selected work</p>
+            <h2 id="projects-title">Projects</h2>
+            <p>Personal projects that reflect what I’m learning and building.</p>
           </div>
-        </article>
 
-        <article class="card">
-          <div class="card-body">
-            <h4>react-chat-app</h4>
-            <p>React chat application demo.</p>
-            <div class="card-links"><a href="https://github.com/Charllie88/react-chat-app" target="_blank">Code</a></div>
+          <div class="project-grid">
+            <article class="project-card">
+              <div class="project-card-top">
+                <span class="project-number">01</span>
+                <span class="project-type">Vanilla JavaScript</span>
+              </div>
+              <h3>Weather App</h3>
+              <p>A responsive city search that displays current weather conditions using Open-Meteo.</p>
+              <ul class="tag-list" aria-label="Technologies">
+                <li>HTML</li><li>CSS</li><li>JavaScript</li><li>Node.js</li>
+              </ul>
+              <a class="text-link" href="https://github.com/Charllie88/weather-app" target="_blank" rel="noopener noreferrer">
+                View source <span aria-hidden="true">↗</span>
+              </a>
+            </article>
+
+            <article class="project-card">
+              <div class="project-card-top">
+                <span class="project-number">02</span>
+                <span class="project-type">Storefront starter</span>
+              </div>
+              <h3>ShopFlow</h3>
+              <p>A React and Vite storefront starter with a responsive home page and locally stored product photography.</p>
+              <ul class="tag-list" aria-label="Technologies">
+                <li>React</li><li>JavaScript</li><li>CSS</li><li>Vite</li>
+              </ul>
+              <a class="text-link" href="https://github.com/Charllie88/ShopFlow-E-commerce" target="_blank" rel="noopener noreferrer">
+                View source <span aria-hidden="true">↗</span>
+              </a>
+              <p class="project-note">Cart, checkout, API, and filtering are not implemented.</p>
+            </article>
+
+            <article class="project-card">
+              <div class="project-card-top">
+                <span class="project-number">03</span>
+                <span class="project-type">Dashboard starter</span>
+              </div>
+              <h3>TaskFlow Pro</h3>
+              <p>A responsive task-management dashboard starter with sample tasks, workspace statistics, and navigation.</p>
+              <ul class="tag-list" aria-label="Technologies">
+                <li>React</li><li>JavaScript</li><li>CSS</li><li>Vite</li>
+              </ul>
+              <a class="text-link" href="https://github.com/Charllie88/TaskFlow-Pro" target="_blank" rel="noopener noreferrer">
+                View source <span aria-hidden="true">↗</span>
+              </a>
+              <p class="project-note">Task creation, editing, and persistence are not implemented.</p>
+            </article>
           </div>
-        </article>
 
-        <article class="card">
-          <div class="card-body">
-            <h4>markdown-notes-app</h4>
-            <p>Notes app with Markdown support.</p>
-            <div class="card-links"><a href="https://github.com/Charllie88/markdown-notes-app" target="_blank">Code</a></div>
+          <p class="availability-note">
+            <strong>JavaScript platform game:</strong> I couldn’t verify a public repository for this project.
+            I’ll add it here when its source is available.
+          </p>
+        </div>
+      </section>
+
+      <section class="about section-shell" id="about" aria-labelledby="about-title">
+        <div class="container about-grid">
+          <div class="section-heading">
+            <p class="eyebrow">A little about me</p>
+            <h2 id="about-title">Learning by building.</h2>
           </div>
-        </article>
+          <div class="about-copy">
+            <p>
+              I’m a junior front-end developer building experience through hands-on web projects.
+              I work with HTML, CSS, JavaScript, and React, and continue to strengthen my
+              fundamentals as I develop and refine my work.
+            </p>
+            <p>
+              My approach is iterative: understand the goal, break it into manageable steps,
+              build a clear solution, and check the result across devices and interactions.
+            </p>
 
-        <article class="card">
-          <div class="card-body">
-            <h4>task-menagment-app</h4>
-            <p>Task management application.</p>
-            <div class="card-links"><a href="https://github.com/Charllie88/task-menagment-app" target="_blank">Code</a></div>
+            <h3>Technical toolkit</h3>
+            <ul class="skill-list">
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>JavaScript</li>
+              <li>React</li>
+              <li>Git &amp; GitHub</li>
+              <li>Responsive web design</li>
+              <li>AI-assisted development</li>
+            </ul>
+
+            <h3>How I use AI tools</h3>
+            <p>
+              I use GitHub Copilot to help explore requirements, plan implementation, draft or
+              explain code, and investigate bugs. I review suggestions, verify behavior, and use
+              available checks before considering a change complete. AI suggestions are a starting
+              point, not a substitute for understanding the code.
+            </p>
           </div>
-        </article>
+        </div>
+      </section>
 
-        <article class="card">
-          <div class="card-body">
-            <h4>movie-browser</h4>
-            <p>Movie search and browsing UI.</p>
-            <div class="card-links"><a href="https://github.com/Charllie88/movie-browser" target="_blank">Code</a></div>
+      <section class="contact section-shell" id="contact" aria-labelledby="contact-title">
+        <div class="container contact-content">
+          <p class="eyebrow">Have a question or opportunity?</p>
+          <h2 id="contact-title">Let’s connect.</h2>
+          <p>I’m open to hearing about junior front-end opportunities and project conversations.</p>
+          <div class="contact-actions">
+            <a class="button button-primary" href="mailto:kapricevski1988@gmail.com">Email me</a>
+            <a class="button button-secondary" href="https://github.com/Charllie88" target="_blank" rel="noopener noreferrer">GitHub profile <span aria-hidden="true">↗</span></a>
           </div>
-        </article>
+        </div>
+      </section>
+    </main>
 
-        <article class="card">
-          <div class="card-body">
-            <h4>memory-card-game</h4>
-            <p>Memory matching card game.</p>
-            <div class="card-links"><a href="https://github.com/Charllie88/memory-card-game" target="_blank">Code</a></div>
-          </div>
-        </article>
-
-        <article class="card">
-          <div class="card-body">
-            <h4>weather-app</h4>
-            <p>Weather forecast UI.</p>
-            <div class="card-links"><a href="https://github.com/Charllie88/weather-app" target="_blank">Code</a></div>
-          </div>
-        </article>
-
-        <article class="card">
-          <div class="card-body">
-            <h4>Progress-Steps</h4>
-            <p>Animated progress steps component.</p>
-            <div class="card-links"><a href="https://github.com/Charllie88/Progress-Steps" target="_blank">Code</a></div>
-          </div>
-        </article>
-
-        <article class="card">
-          <div class="card-body">
-            <h4>drink-watter</h4>
-            <p>Hydration tracker UI.</p>
-            <div class="card-links"><a href="https://github.com/Charllie88/drink-watter" target="_blank">Code</a></div>
-          </div>
-        </article>
-
-        <article class="card">
-          <div class="card-body">
-            <h4>Expanding-Cards</h4>
-            <p>Interactive expanding cards demo.</p>
-            <div class="card-links"><a href="https://github.com/Charllie88/Expanding-Cards" target="_blank">Code</a></div>
-          </div>
-        </article>
-
-        <article class="card">
-          <div class="card-body">
-            <h4>Dad-jokes</h4>
-            <p>Random dad jokes UI.</p>
-            <div class="card-links"><a href="https://github.com/Charllie88/Dad-jokes" target="_blank">Code</a></div>
-          </div>
-        </article>
-
-        <article class="card">
-          <div class="card-body">
-            <h4>Charllie.github.io</h4>
-            <p>Personal site / GitHub Pages repository.</p>
-            <div class="card-links"><a href="https://github.com/Charllie88/Charllie.github.io" target="_blank">Code</a></div>
-          </div>
-        </article>
-
+    <footer class="site-footer">
+      <div class="container footer-content">
+        <small>© <span id="year"></span> Kliment Kapricevski</small>
+        <a href="#home">Back to top ↑</a>
       </div>
-    </section>
-
-    <section class="about container centered-section" id="about">
-      <h3>About</h3>
-      <p>
-        I'm Kliment Kapricevski — a passionate front-end developer experienced with
-        HTML, CSS, JavaScript, React, and Next.js. I leverage AI-assisted tools
-        like ChatGPT, GitHub Copilot, and Cursor to speed up development and improve
-        code quality. I'm focused on clean, responsive interfaces and good UX.
-      </p>
-      <p><strong>Skills:</strong> HTML, CSS, JavaScript, React, Next.js, Responsive Design, UI/UX, Git</p>
-      <p><strong>Looking for:</strong> Front-end / UI developer roles or contract work.</p>
-    </section>
-
-    <section class="contact container centered-section" id="contact">
-      <h3>Contact</h3>
-      <p>Email: <a href="mailto:kapricevski1988@gmail.com">kapricevski1988@gmail.com</a></p>
-      <div class="contact-actions">
-        <a class="btn btn--primary" href="mailto:kapricevski1988@gmail.com">Send Email</a>
-        <a class="btn btn--accent" href="#" target="_blank">View Resume</a>
-        <a class="btn btn--muted" href="https://github.com/Charllie88" target="_blank">GitHub</a>
-      </div>
-
-      <form id="contact-form">
-        <label>
-          Name
-          <input type="text" name="name" required>
-        </label>
-        <label>
-          Email
-          <input type="email" name="email" required>
-        </label>
-        <label>
-          Message
-          <textarea name="message" rows="4" required></textarea>
-        </label>
-        <button type="submit" class="btn">Send</button>
-        <p id="form-status" aria-live="polite"></p>
-      </form>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container">
-      <small>&copy; <span id="year"></span> Your Name. Built with HTML, CSS, JS.</small>
-    </div>
-  </footer>
-</body>
+    </footer>
+  </body>
 </html>

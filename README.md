@@ -1,19 +1,31 @@
-Portfolio project
+# Kliment Kapricevski — Portfolio
 
-A simple, portable portfolio site using HTML, CSS and JavaScript. No build step required.
+A personal portfolio for a junior front-end developer. Built with semantic HTML, CSS, and vanilla JavaScript; no build step or third-party dependencies are required.
 
-How to open
+## Preview locally
 
-- Open `index.html` in your browser (double-click or right-click -> Open with...).
+Open `index.html` in a browser, or serve this folder with any static file server. For example, with Node.js:
 
-What to customize
+```sh
+npx serve .
+```
 
-- Replace "Your Name" with your name in `index.html`.
-- Update project cards in the `Projects` section with real links and images.
-- Replace contact email in the Contact section.
+## Featured projects
 
-Next steps (suggestions)
+- **Weather App** — city search and current weather using Open-Meteo. [Source](https://github.com/Charllie88/weather-app)
+- **ShopFlow** — responsive React/Vite storefront starter. Cart, checkout, API, and filtering are not implemented. [Source](https://github.com/Charllie88/ShopFlow-E-commerce)
+- **TaskFlow Pro** — responsive React/Vite task dashboard starter with sample data. Task creation, editing, and persistence are not implemented. [Source](https://github.com/Charllie88/TaskFlow-Pro)
 
-- Convert to React or Next.js for dynamic content and routing.
-- Add a deploy workflow (GitHub Pages, Vercel, or Netlify).
-- Improve accessibility and add tests.
+A JavaScript platform-game repository has not yet been added to the portfolio because a public source repository could not be verified.
+
+## Contact
+
+Use the email link on the site to contact Kliment directly. The portfolio does not include a message form because no form-delivery service is configured.
+
+## Structure
+
+- `index.html` — page content, metadata, project links, and contact information.
+- `css/styles.css` — theme, layout, responsive rules, and accessibility states.
+- `js/script.js` — current-year footer label.
+
+There is no build, lint, or test script configured for this static site.
